@@ -8,7 +8,7 @@ python manage.py migrate
 
 # Transfer old data from SQLite to PostgreSQL
 # Check if the data.json file exists
-if [ -f "data.json" ]; then
+if [ -f "regions.json" ]; then
     echo "Loading data from data.json into the database..."
     python manage.py loaddata data.json
 else
