@@ -66,3 +66,5 @@ class DiabetesPredictor:
 
         # Convert confidence tensor to a Python float
         return predicted_class.item(), confidence.item()
+
+        
