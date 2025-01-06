@@ -6,7 +6,6 @@ python manage.py collectstatic --no-input
 
 python manage.py migrate
 
-python manage.py loaddata data_diabetesdata.json
-python manage.py loaddata data_gender.json
-python manage.py loaddata data_region.json
-python manage.py loaddata data_results.json
+python manage.py loaddata data/fixtures/region.json
+python manage.py loaddata data/fixtures/gender.json
+python manage.py loaddata data/fixtures/results.json
